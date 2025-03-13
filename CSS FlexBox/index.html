@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/d3bf81c4cd.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 600;
+        }
+        .header{
+            margin: 50px;
+            background-color: rgb(5, 71, 214);
+            height: 200px;
+            padding: 20px;
+            text-align: center;
+        
+        }
+        h2{
+            color: white;
+        }
+        .items{
+            display: flex;
+            align-content: center;
+            margin-top: 35px;
+            justify-content:space-between;
+            flex-wrap: wrap;
+            
+        
+        }
+        .one, .two, .three, .four {
+            background-color: white;
+            padding: 5px;
+            border: none;
+            border-radius: 20px;
+            height: 30px;
+            width: 300px;
+            line-height: 30px;
+
+        }
+        .content{
+            margin-left: 60px;
+            margin-right: 60px;
+            text-align: center;
+            display: flex;
+            height: 140px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .Saving, .Deposit{
+            color: white;
+            background-color: hsl(214, 84%, 50%);
+            padding: 8px;
+            width: 150px;
+            font-size: 30px;
+            line-height: 45px;
+            border-radius: 7px;
+            box-shadow: 6px 5px 13px 3px rgb(197, 214, 235);
+        }
+     .Current, .Card, .Loan{
+            color:rgb(13, 106, 228);
+            background-color: hsl(216, 48%, 94%);
+            padding: 8px;
+            width: 150px;
+            font-size: 30px;
+            line-height: 45px;
+            border-radius: 7px;
+            box-shadow: 6px 5px 9px 3px rgb(206, 227, 235);
+        }
+        .white{
+            color: white;
+            font-size: 15px;
+        }
+        .black{
+            color: black;
+            font-size: 15px;
+        }
+        .footer{
+            background-color: rgb(5, 71, 214);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 50px;
+            font-size: 15px;
+        }
+
+    </style>
+</head>
+<body>
+  <div class="header">
+    <h2>Be your own bank</h2>
+    <div class="items">
+        <p class="one">Self-Registration Portal</p>
+        <p class="two">Track Remittances</p>
+        <p class="three">Credit Card Payments</p>
+        <p class="four">Prepaid Card Balance</p>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="Saving">
+        <i class="fa-solid fa-wallet"></i><p class="white">Savings Account</p></div>
+    <div class="Deposit">
+        <i class="fa-solid fa-clipboard-list"></i><p class="white">Desposits</p></div>
+    <div class="Current">
+        <i class="fa-regular fa-newspaper"></i><p class="black">Current Accounts</p></div>
+    <div class="Card">
+        <i class="fa-brands fa-cc-paypal"></i><p class="black">Cards</p></div>
+    <div class="Loan">
+        <i class="fa-solid fa-sack-dollar"></i><p class="black">Loans</p></div>
+
+  </div>
+ 
+<div class="footer">
+    <p>Copyright © 2021. All rights reserved. </p>
+    <p>Privacy Policy | Terms of use</p>
+
+</div>
+</body>
+</html>

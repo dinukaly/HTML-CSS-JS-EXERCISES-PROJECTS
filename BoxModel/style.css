@@ -1,0 +1,210 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  
+}
+
+.navbar { 
+   
+    text-align: center;
+    padding: 5px;
+    background-color: #A27172;
+    height: 80px;
+    color: #FFFFFF;
+    
+    
+}
+
+.logo{
+    font-size: 1.5em;
+    margin-top: 5px; 
+    margin-left: 10px;
+    text-align: left;
+    font-size: 3em;
+    color: #FFFFFF;
+}
+.home {
+    width: 90px;
+    height: 50px;
+    font-size: 1.5em;
+    margin-top: -2em; 
+    margin-left: 15em;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 10px;
+    
+}
+
+.about{
+    width: 90px;
+    height: 50px;
+    font-size: 1.5em;
+    margin-top: -2.1em;
+    margin-left: 23em;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    padding-top: 10px;
+
+    
+    
+}
+.menu{
+    width: 90px;
+    height: 50px;
+    font-size: 1.5em;
+    margin-top: -50px;
+    margin-left: 31em;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    padding-top:10px;
+    
+}
+.contact{
+    width: 95px;
+    height: 50px;
+    font-size: 1.5em;
+    margin-top: -50px;
+    margin-left: 39em;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: px;
+    
+}
+
+.home:hover, .about:hover, .menu:hover, .contact:hover {
+    background-color: #f2f2f2;
+    color: #333; 
+}
+
+.content{
+    margin: 40px;
+    margin-top: 70px;
+    border: 2px solid #A27172;
+    padding: 30px;
+    border-radius: 10px;
+}
+h2{
+    margin: 10px;
+    color: #A27172;
+    font-size: 30px;
+
+}
+img{
+    
+    width: 600px;
+    height: 350px;
+    margin: 20em;
+    margin-top: 2em;
+    margin-left: 23em;
+}
+
+.form{
+    text-align: center;
+    margin-top: -18em;
+    border-radius: 10px;
+    margin-left: 0em;
+    
+}
+.firstname{
+    width: 350px;
+    height: 50px;
+    margin:  15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 17px;
+
+}
+.lastname{
+    width: 350px;
+    height: 50px;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 17px;
+
+}
+.Contact{
+    width: 350px;
+    height: 50px;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 17px;
+
+}
+.email{
+    width: 350px;
+    height: 50px;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 17px;
+
+}
+.submit{
+    width: 100px;
+    height: 50px;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 17px;
+    margin-right: 250px;
+    background-color: #D9D9D9;
+    color: black;
+
+}
+
+.footer { 
+    text-align: center;
+    padding: 40px;
+    background-color: #7D8077;
+    height: 300px;
+    margin-top: 30px;
+    padding-bottom: 18em;
+    
+    
+}
+
+.userarea{
+    background-color: #A27172;
+    width: 260px;
+    height: 250px;
+    padding: 50px;
+    margin-left:120px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    color: #FFF1F1;
+
+}
+.shopingguide{
+    background-color: #A27172;
+    width: 260px;
+    height: 250px;
+    padding: 50px;
+    margin-top: -212px;
+    margin-left: 340px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    color: #FFF1F1;
+    
+}
+.sitemap{
+    background-color: #A27172;
+    width: 260px;
+    height: 250px;
+    padding: 50px;
+    margin-top: -212px;
+    margin-left: 350px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    color: #FFF1F1;
+}

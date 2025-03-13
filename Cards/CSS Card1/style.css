@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.wrapper{
+    position: absolute;
+    margin: 100px;
+    border:none;
+    padding: 30px;
+    width: 440px;
+    height: 465px;
+    border-radius: 40px;
+    background-color: #edf0f16c;
+    box-shadow: 0px 0px 86px -3px rgba(155,155,155,1),
+25px 0px 20px -20px rgba(0,0,0,0.45),
+0px 25px 20px -20px rgba(0,0,0,0.45),
+-25px 0px 20px -20px rgba(0,0,0,0.45);
+
+}
+
+.container{
+    position: absolute;
+    border:none;
+    width: 440px;
+    height: 365px;
+    border-radius: 40px;
+    background-color: #5b656b42;
+    padding: 30px;
+    padding-top: 20px;
+    left: 0;
+    top: 110px;
+}
+.container > .induction{
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    line-height: 35px;
+
+}
+
+.container > .induction > .fa-solid.fa-play{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    padding: 10px;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    border-radius: 35px;
+    line-height: 40px;
+}
+
+.content{
+    position: absolute;
+    border:none;
+    width: 440px;
+    height: 250px;
+    border-radius: 40px;
+    background-color: #3a11f12d;
+    padding: 30px;
+    left: 0;
+    top: 105px;
+}
+
+.fa-solid.fa-lock{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 12px;
+    background-color: gray;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.APT, .ADT, .ADC{
+    position: relative;
+    color: black;
+    font-size: 20px;
+    left: 0px;
+} 

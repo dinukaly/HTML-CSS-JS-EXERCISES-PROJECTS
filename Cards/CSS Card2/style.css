@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.thumbnail{
+    height: 200px;
+    width: 100px;
+}
+
+.img{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    margin: 100px;
+    border: none;
+    border-radius: 10px;
+}
+h1{
+    color: white;
+    border: none;
+    border-radius: 20px;
+    text-shadow: 21px 2px 16px #0000003a;
+    position: absolute;
+    left: 220px;
+    top: 200px;
+    font-size: 90px;
+    z-index: 2;
+}
+.second-card{
+    position: absolute;
+    border: none;
+    border-radius: 20px;
+    left: 100px;
+    bottom: 100px;
+    background-color: rgb(241, 245, 245);
+    z-index: 1;
+    height: 200px;
+    width: 400px;
+}
+.title{
+    padding-left: 10px;
+    padding-top: 20px;
+    color: rgba(13, 29, 177, 0.726);
+    font-size: 30px;
+    font-weight: bold;
+}
+.description{
+    padding-left: 10px;
+    color: blue;
+    margin-top: 10px ;
+    width: 240px;
+    font-size: 16px;
+
+}
+.icons{
+    padding-left: 10px;
+    position: absolute;
+    font-size: 25px;
+    bottom: 4px;
+    cursor: pointer;
+
+}
+.footer{
+    position: relative;
+    text-align: right;
+    top: 50px;
+    font-size: 20px;
+    right: 5px;
+    color: orange;
+}
+.fa-brands.fa-square-facebook{
+    color: blue;
+}
+
+.fa-brands.fa-square-whatsapp{
+    color: rgb(21, 211, 21);
+}
